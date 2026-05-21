@@ -5,7 +5,7 @@
     "foundedYear": 1998,
     "isActive": true,
     "headquarters": "Vancouver, Canada",
-    "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+    "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/northlight-pictures.jpg"
   },
   {
     "id": "STU-002",
@@ -13,7 +13,7 @@
     "foundedYear": 2005,
     "isActive": true,
     "headquarters": "London, United Kingdom",
-    "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silver-frame-studios.jpg"
+    "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/silver-frame-studios.jpg"
   },
   {
     "id": "STU-003",
@@ -21,7 +21,7 @@
     "foundedYear": 2012,
     "isActive": true,
     "headquarters": "Los Angeles, United States",
-    "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/blue-orbit-entertainment.jpg"
+    "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/blue-orbit-entertainment.jpg"
   },
   {
     "id": "STU-004",
@@ -29,7 +29,7 @@
     "foundedYear": 1987,
     "isActive": false,
     "headquarters": "Dublin, Ireland",
-    "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/red-valley-films.jpg"
+    "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/red-valley-films.jpg"
   },
   {
     "id": "STU-005",
@@ -37,6 +37,6 @@
     "foundedYear": 2016,
     "isActive": true,
     "headquarters": "Brussels, Belgium",
-    "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/golden-lantern-animation.jpg"
+    "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/golden-lantern-animation.jpg"
   }
 ]

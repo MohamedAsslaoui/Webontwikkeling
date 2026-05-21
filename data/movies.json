@@ -6,7 +6,7 @@
     "duration": 148,
     "isAvailable": true,
     "releaseDate": "2021-03-12",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/eclipse-horizon.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/eclipse-horizon.jpg",
     "genre": "Science Fiction",
     "actors": ["Liam Carter", "Emma Brooks", "Noah Bennett"],
     "studio": {
@@ -15,7 +15,7 @@
       "foundedYear": 1998,
       "isActive": true,
       "headquarters": "Vancouver, Canada",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/northlight-pictures.jpg"
     }
   },
   {
@@ -25,7 +25,7 @@
     "duration": 132,
     "isAvailable": true,
     "releaseDate": "2019-08-22",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/shadow-chase.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/shadow-chase.jpg",
     "genre": "Thriller",
     "actors": ["Olivia Reed", "Mason Hill", "Daniel Cooper"],
     "studio": {
@@ -34,7 +34,7 @@
       "foundedYear": 2005,
       "isActive": true,
       "headquarters": "London, United Kingdom",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silver-frame-studios.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/silver-frame-studios.jpg"
     }
   },
   {
@@ -44,7 +44,7 @@
     "duration": 154,
     "isAvailable": false,
     "releaseDate": "2020-11-05",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/crystal-kingdom.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/crystal-kingdom.jpg",
     "genre": "Fantasy",
     "actors": ["Sophia Turner", "James Miller", "Lucas Green"],
     "studio": {
@@ -53,7 +53,7 @@
       "foundedYear": 2012,
       "isActive": true,
       "headquarters": "Los Angeles, United States",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/blue-orbit-entertainment.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/blue-orbit-entertainment.jpg"
     }
   },
   {
@@ -63,7 +63,7 @@
     "duration": 125,
     "isAvailable": true,
     "releaseDate": "2018-06-14",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/final-strike.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/final-strike.jpg",
     "genre": "Action",
     "actors": ["Ryan Scott", "Nathan Cole", "Ava Parker"],
     "studio": {
@@ -72,7 +72,7 @@
       "foundedYear": 1998,
       "isActive": true,
       "headquarters": "Vancouver, Canada",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/northlight-pictures.jpg"
     }
   },
   {
@@ -82,7 +82,7 @@
     "duration": 117,
     "isAvailable": true,
     "releaseDate": "2022-02-18",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silent-memories.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/silent-memories.jpg",
     "genre": "Drama",
     "actors": ["Emily White", "Jacob Harris", "Grace Turner"],
     "studio": {
@@ -91,7 +91,7 @@
       "foundedYear": 1987,
       "isActive": false,
       "headquarters": "Dublin, Ireland",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/red-valley-films.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/red-valley-films.jpg"
     }
   },
   {
@@ -101,7 +101,7 @@
     "duration": 139,
     "isAvailable": true,
     "releaseDate": "2023-09-09",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/skyline-racers.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/skyline-racers.jpg",
     "genre": "Action",
     "actors": ["Ethan Brooks", "Logan Price", "Mia Collins"],
     "studio": {
@@ -110,7 +110,7 @@
       "foundedYear": 2012,
       "isActive": true,
       "headquarters": "Los Angeles, United States",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/blue-orbit-entertainment.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/blue-orbit-entertainment.jpg"
     }
   },
   {
@@ -120,7 +120,7 @@
     "duration": 143,
     "isAvailable": false,
     "releaseDate": "2020-10-30",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/dreambound.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/dreambound.jpg",
     "genre": "Fantasy",
     "actors": ["Ella Foster", "Henry Ward", "Jack Stone"],
     "studio": {
@@ -129,7 +129,7 @@
       "foundedYear": 2005,
       "isActive": true,
       "headquarters": "London, United Kingdom",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silver-frame-studios.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/silver-frame-studios.jpg"
     }
   },
   {
@@ -139,7 +139,7 @@
     "duration": 101,
     "isAvailable": true,
     "releaseDate": "2024-01-11",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/pixel-planet.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/pixel-planet.jpg",
     "genre": "Animation",
     "actors": ["Leo Adams", "Chloe Evans", "Oliver Reed"],
     "studio": {
@@ -148,7 +148,7 @@
       "foundedYear": 2016,
       "isActive": true,
       "headquarters": "Brussels, Belgium",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/golden-lantern-animation.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/golden-lantern-animation.jpg"
     }
   },
   {
@@ -158,7 +158,7 @@
     "duration": 146,
     "isAvailable": true,
     "releaseDate": "2021-12-02",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/deep-signal.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/deep-signal.jpg",
     "genre": "Science Fiction",
     "actors": ["Benjamin Lee", "Sophie Adams", "Nathan Gray"],
     "studio": {
@@ -167,7 +167,7 @@
       "foundedYear": 1998,
       "isActive": true,
       "headquarters": "Vancouver, Canada",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/northlight-pictures.jpg"
     }
   },
   {
@@ -177,7 +177,7 @@
     "duration": 128,
     "isAvailable": true,
     "releaseDate": "2017-04-27",
-    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/broken-truth.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/broken-truth.jpg",
     "genre": "Thriller",
     "actors": ["Matthew Young", "Scarlett Hayes", "Andrew King"],
     "studio": {
@@ -186,7 +186,7 @@
       "foundedYear": 1987,
       "isActive": false,
       "headquarters": "Dublin, Ireland",
-      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/red-valley-films.jpg"
+      "logoUrl": "https://raw.githubusercontent.com/MohamedAsslaoui/Webontwikkeling/main/images/red-valley-films.jpg"
     }
   }
 ]
