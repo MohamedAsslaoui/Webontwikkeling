@@ -1,0 +1,192 @@
+[
+  {
+    "id": "MOV-001",
+    "title": "Eclipse Horizon",
+    "description": "A science fiction adventure following a team of astronauts searching for a new habitable planet after Earth becomes unstable.",
+    "duration": 148,
+    "isAvailable": true,
+    "releaseDate": "2021-03-12",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/eclipse-horizon.jpg",
+    "genre": "Science Fiction",
+    "actors": ["Liam Carter", "Emma Brooks", "Noah Bennett"],
+    "studio": {
+      "id": "STU-001",
+      "name": "Northlight Pictures",
+      "foundedYear": 1998,
+      "isActive": true,
+      "headquarters": "Vancouver, Canada",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+    }
+  },
+  {
+    "id": "MOV-002",
+    "title": "Shadow Chase",
+    "description": "A detective investigates a mysterious criminal network operating through the underground streets of New York.",
+    "duration": 132,
+    "isAvailable": true,
+    "releaseDate": "2019-08-22",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/shadow-chase.jpg",
+    "genre": "Thriller",
+    "actors": ["Olivia Reed", "Mason Hill", "Daniel Cooper"],
+    "studio": {
+      "id": "STU-002",
+      "name": "Silver Frame Studios",
+      "foundedYear": 2005,
+      "isActive": true,
+      "headquarters": "London, United Kingdom",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silver-frame-studios.jpg"
+    }
+  },
+  {
+    "id": "MOV-003",
+    "title": "Crystal Kingdom",
+    "description": "A young warrior must unite magical kingdoms to stop an ancient force from destroying the world.",
+    "duration": 154,
+    "isAvailable": false,
+    "releaseDate": "2020-11-05",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/crystal-kingdom.jpg",
+    "genre": "Fantasy",
+    "actors": ["Sophia Turner", "James Miller", "Lucas Green"],
+    "studio": {
+      "id": "STU-003",
+      "name": "Blue Orbit Entertainment",
+      "foundedYear": 2012,
+      "isActive": true,
+      "headquarters": "Los Angeles, United States",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/blue-orbit-entertainment.jpg"
+    }
+  },
+  {
+    "id": "MOV-004",
+    "title": "Final Strike",
+    "description": "An elite military unit is sent on a dangerous mission to stop a global cyber attack.",
+    "duration": 125,
+    "isAvailable": true,
+    "releaseDate": "2018-06-14",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/final-strike.jpg",
+    "genre": "Action",
+    "actors": ["Ryan Scott", "Nathan Cole", "Ava Parker"],
+    "studio": {
+      "id": "STU-001",
+      "name": "Northlight Pictures",
+      "foundedYear": 1998,
+      "isActive": true,
+      "headquarters": "Vancouver, Canada",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+    }
+  },
+  {
+    "id": "MOV-005",
+    "title": "Silent Memories",
+    "description": "A touching drama about a family reconnecting after years of separation and misunderstandings.",
+    "duration": 117,
+    "isAvailable": true,
+    "releaseDate": "2022-02-18",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silent-memories.jpg",
+    "genre": "Drama",
+    "actors": ["Emily White", "Jacob Harris", "Grace Turner"],
+    "studio": {
+      "id": "STU-004",
+      "name": "Red Valley Films",
+      "foundedYear": 1987,
+      "isActive": false,
+      "headquarters": "Dublin, Ireland",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/red-valley-films.jpg"
+    }
+  },
+  {
+    "id": "MOV-006",
+    "title": "Skyline Racers",
+    "description": "Street racers compete in futuristic flying cars across massive city skylines.",
+    "duration": 139,
+    "isAvailable": true,
+    "releaseDate": "2023-09-09",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/skyline-racers.jpg",
+    "genre": "Action",
+    "actors": ["Ethan Brooks", "Logan Price", "Mia Collins"],
+    "studio": {
+      "id": "STU-003",
+      "name": "Blue Orbit Entertainment",
+      "foundedYear": 2012,
+      "isActive": true,
+      "headquarters": "Los Angeles, United States",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/blue-orbit-entertainment.jpg"
+    }
+  },
+  {
+    "id": "MOV-007",
+    "title": "Dreambound",
+    "description": "A teenager discovers a hidden world inside dreams where nightmares become reality.",
+    "duration": 143,
+    "isAvailable": false,
+    "releaseDate": "2020-10-30",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/dreambound.jpg",
+    "genre": "Fantasy",
+    "actors": ["Ella Foster", "Henry Ward", "Jack Stone"],
+    "studio": {
+      "id": "STU-002",
+      "name": "Silver Frame Studios",
+      "foundedYear": 2005,
+      "isActive": true,
+      "headquarters": "London, United Kingdom",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/silver-frame-studios.jpg"
+    }
+  },
+  {
+    "id": "MOV-008",
+    "title": "Pixel Planet",
+    "description": "An animated adventure about digital heroes trying to save their virtual universe.",
+    "duration": 101,
+    "isAvailable": true,
+    "releaseDate": "2024-01-11",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/pixel-planet.jpg",
+    "genre": "Animation",
+    "actors": ["Leo Adams", "Chloe Evans", "Oliver Reed"],
+    "studio": {
+      "id": "STU-005",
+      "name": "Golden Lantern Animation",
+      "foundedYear": 2016,
+      "isActive": true,
+      "headquarters": "Brussels, Belgium",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/golden-lantern-animation.jpg"
+    }
+  },
+  {
+    "id": "MOV-009",
+    "title": "Deep Signal",
+    "description": "Scientists receive a mysterious signal from the bottom of the Pacific Ocean that could change humanity forever.",
+    "duration": 146,
+    "isAvailable": true,
+    "releaseDate": "2021-12-02",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/deep-signal.jpg",
+    "genre": "Science Fiction",
+    "actors": ["Benjamin Lee", "Sophie Adams", "Nathan Gray"],
+    "studio": {
+      "id": "STU-001",
+      "name": "Northlight Pictures",
+      "foundedYear": 1998,
+      "isActive": true,
+      "headquarters": "Vancouver, Canada",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/northlight-pictures.jpg"
+    }
+  },
+  {
+    "id": "MOV-010",
+    "title": "Broken Truth",
+    "description": "A journalist uncovers a conspiracy involving corruption at the highest levels of government.",
+    "duration": 128,
+    "isAvailable": true,
+    "releaseDate": "2017-04-27",
+    "imageUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/broken-truth.jpg",
+    "genre": "Thriller",
+    "actors": ["Matthew Young", "Scarlett Hayes", "Andrew King"],
+    "studio": {
+      "id": "STU-004",
+      "name": "Red Valley Films",
+      "foundedYear": 1987,
+      "isActive": false,
+      "headquarters": "Dublin, Ireland",
+      "logoUrl": "https://raw.githubusercontent.com/JOUW-GITHUB-NAAM/JOUW-REPO-NAAM/main/images/red-valley-films.jpg"
+    }
+  }
+]
