@@ -11,7 +11,7 @@ export interface Movie {
     id: string;
     title: string;
     description: string;
-    releaseYear: number;
+    duration: number;
     isAvailable: boolean;
     releaseDate: string;
     imageUrl: string;
