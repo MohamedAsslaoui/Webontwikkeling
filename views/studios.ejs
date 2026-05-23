@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Studios</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+
+    <main>
+        <h1>Studios</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Founded year</th>
+                    <th>Active</th>
+                    <th>Headquarters</th>
+                    <th>Detail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <% studios.forEach((studio) => { %>
+                    <tr>
+                        <td><%= studio.name %></td>
+                        <td><%= studio.foundedYear %></td>
+                        <td><%= studio.isActive %></td>
+                        <td><%= studio.headquarters %></td>
+                        <td><a href="/studios/<%= studio.id %>">View</a></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

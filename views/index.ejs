@@ -2,20 +2,45 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webontwikkeling Project</title>
-
+    <title>Movies</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <%- include("partials/navbar") %>
 
     <main>
-        <h1>Milestone 0</h1>
+        <h1>Movies</h1>
 
-        <p>
-            Mijn Express + TypeScript project werkt correct.
-        </p>
+        <form method="GET" action="/">
+            <input type="text" name="search" value="<%= search %>" placeholder="Search by title">
+            <button type="submit">Search</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="/?search=<%= search %>&sortField=title&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Title</a></th>
+                    <th><a href="/?search=<%= search %>&sortField=releaseYear&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Release year</a></th>
+                    <th><a href="/?search=<%= search %>&sortField=genre&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Genre</a></th>
+                    <th><a href="/?search=<%= search %>&sortField=isAvailable&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Available</a></th>
+                    <th><a href="/?search=<%= search %>&sortField=studio&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Studio</a></th>
+                    <th>Detail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <% movies.forEach((movie) => { %>
+                    <tr>
+                        <td><%= movie.title %></td>
+                        <td><%= movie.releaseDate.split("-")[0] %></td>
+                        <td><%= movie.genre %></td>
+                        <td><%= movie.isAvailable %></td>
+                        <td><%= movie.studio.name %></td>
+                        <td><a href="/movies/<%= movie.id %>">View</a></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
     </main>
-
 </body>
 </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title><%= studio.name %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+
+    <main>
+        <h1><%= studio.name %></h1>
+
+        <img src="<%= studio.logoUrl %>" alt="<%= studio.name %>" class="detail-image">
+
+        <p><strong>ID:</strong> <%= studio.id %></p>
+        <p><strong>Founded year:</strong> <%= studio.foundedYear %></p>
+        <p><strong>Active:</strong> <%= studio.isActive %></p>
+        <p><strong>Headquarters:</strong> <%= studio.headquarters %></p>
+
+        <h2>Movies from this studio</h2>
+
+        <% if (movies.length === 0) { %>
+            <p>No movies found for this studio.</p>
+        <% } else { %>
+            <ul>
+                <% movies.forEach((movie) => { %>
+                    <li>
+                        <%= movie.title %> -
+                        <a href="/movies/<%= movie.id %>">View movie</a>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } %>
+    </main>
+</body>
+</html>

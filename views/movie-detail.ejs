@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title><%= movie.title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+
+    <main>
+        <h1><%= movie.title %></h1>
+
+        <img src="<%= movie.imageUrl %>" alt="<%= movie.title %>" class="detail-image">
+
+        <p><strong>ID:</strong> <%= movie.id %></p>
+        <p><strong>Description:</strong> <%= movie.description %></p>
+        <p><strong>Release year:</strong> <%= movie.releaseDate.split("-")[0] %></p>
+        <p><strong>Available:</strong> <%= movie.isAvailable %></p>
+        <p><strong>Release date:</strong> <%= movie.releaseDate %></p>
+        <p><strong>Genre:</strong> <%= movie.genre %></p>
+        <p><strong>Actors:</strong> <%= movie.actors.join(", ") %></p>
+
+        <h2>Studio</h2>
+        <p><strong>Name:</strong> <%= movie.studio.name %></p>
+        <p><strong>Headquarters:</strong> <%= movie.studio.headquarters %></p>
+        <p><a href="/studios/<%= movie.studio.id %>">View studio detail</a></p>
+    </main>
+</body>
+</html>
