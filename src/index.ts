@@ -70,6 +70,7 @@ app.get("/", async (req, res) => {
     res.render("index", {
         movies: movies,
         search: search,
+        sortField: sortField,
         sortDirection: sortDirection
     });
 });

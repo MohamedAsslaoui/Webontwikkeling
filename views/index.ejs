@@ -19,11 +19,51 @@
         <table>
             <thead>
                 <tr>
-                    <th><a href="/?search=<%= search %>&sortField=title&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Title</a></th>
-                    <th><a href="/?search=<%= search %>&sortField=releaseYear&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Release year</a></th>
-                    <th><a href="/?search=<%= search %>&sortField=genre&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Genre</a></th>
-                    <th><a href="/?search=<%= search %>&sortField=isAvailable&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Available</a></th>
-                    <th><a href="/?search=<%= search %>&sortField=studio&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">Studio</a></th>
+                    <th>
+                        <a href="/?search=<%= search %>&sortField=title&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">
+                            Title
+                            <% if (sortField === "title") { %>
+                                <%= sortDirection === "asc" ? "▲" : "▼" %>
+                            <% } %>
+                        </a>
+                    </th>
+
+                    <th>
+                        <a href="/?search=<%= search %>&sortField=releaseYear&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">
+                            Release year
+                            <% if (sortField === "releaseYear") { %>
+                                <%= sortDirection === "asc" ? "▲" : "▼" %>
+                            <% } %>
+                        </a>
+                    </th>
+
+                    <th>
+                        <a href="/?search=<%= search %>&sortField=genre&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">
+                            Genre
+                            <% if (sortField === "genre") { %>
+                                <%= sortDirection === "asc" ? "▲" : "▼" %>
+                            <% } %>
+                        </a>
+                    </th>
+
+                    <th>
+                        <a href="/?search=<%= search %>&sortField=isAvailable&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">
+                            Available
+                            <% if (sortField === "isAvailable") { %>
+                                <%= sortDirection === "asc" ? "▲" : "▼" %>
+                            <% } %>
+                        </a>
+                    </th>
+
+                    <th>
+                        <a href="/?search=<%= search %>&sortField=studio&sortDirection=<%= sortDirection === 'asc' ? 'desc' : 'asc' %>">
+                            Studio
+                            <% if (sortField === "studio") { %>
+                                <%= sortDirection === "asc" ? "▲" : "▼" %>
+                            <% } %>
+                        </a>
+                    </th>
+
                     <th>Detail</th>
                 </tr>
             </thead>
