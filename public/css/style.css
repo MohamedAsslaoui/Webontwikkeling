@@ -43,15 +43,6 @@ h2 {
     margin-top: 34px;
 }
 
-form {
-    display: flex;
-    gap: 12px;
-    margin: 24px 0;
-    padding: 18px;
-    background-color: #eef2ff;
-    border-radius: 16px;
-}
-
 input {
     padding: 13px;
     width: 300px;
@@ -100,13 +91,14 @@ tr:hover {
     background-color: #f5f3ff;
 }
 
-th {
-    background: linear-gradient(90deg, #312e81, #4338ca);
-    color: white;
-}
 th a {
-    color: inherit;
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+th a:hover {
+    color: #fde68a;
 }
 
 td a,
@@ -120,6 +112,17 @@ td a:hover,
 main a:hover {
     color: #7c3aed;
     text-decoration: underline;
+}
+
+main th a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main th a:hover {
+    color: #fde68a;
+    text-decoration: none;
 }
 
 .detail-image {
@@ -151,13 +154,114 @@ li {
     margin-bottom: 12px;
 }
 
-th,
-th a {
-    color: white;
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-color: #eef2ff;
+    padding: 24px;
+    border-radius: 16px;
 }
 
-th a {
-    text-decoration: none;
+form label {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+form input,
+form select {
+    padding: 14px;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    width: fit-content;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(30, 41, 59, 0.15);
+}
+
+.login-container h1 {
+    margin-top: 0;
+    color: #0f172a;
+    font-size: 42px;
+}
+
+.login-form {
+    background-color: #eef2ff;
+    padding: 28px;
+    border-radius: 18px;
+}
+
+.login-form div {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    opacity: 0.9;
+}
+
+.error {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+nav span {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 @media (max-width: 700px) {

@@ -19,3 +19,9 @@ export interface Movie {
     actors: string[];
     studio: Studio;
 }
+
+export interface User {
+    username: string;
+    password: string;
+    role: "ADMIN" | "USER";
+}

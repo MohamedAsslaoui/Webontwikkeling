@@ -1,4 +1,12 @@
 <nav>
     <a href="/">Movies</a>
     <a href="/studios">Studios</a>
+
+    <% if (!username) { %>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+    <% } else { %>
+        <span>Welkom <%= username %> (<%= role %>)</span>
+        <a href="/logout">Logout</a>
+    <% } %>
 </nav>

@@ -65,6 +65,9 @@
                     </th>
 
                     <th>Detail</th>
+                    <% if (role === "ADMIN") { %>
+                        <th>Edit</th>
+                    <% } %>
                 </tr>
             </thead>
 
@@ -74,9 +77,14 @@
                         <td><%= movie.title %></td>
                         <td><%= movie.releaseDate.split("-")[0] %></td>
                         <td><%= movie.genre %></td>
-                        <td><%= movie.isAvailable %></td>
+                        <td><%= movie.isAvailable ? "Yes" : "No" %></td>
                         <td><%= movie.studio.name %></td>
                         <td><a href="/movies/<%= movie.id %>">View</a></td>
+                        <% if (role === "ADMIN") { %>
+                            <td>
+                                <a href="/movies/<%= movie.id %>/edit">Edit</a>
+                            </td>
+                        <% } %>
                     </tr>
                 <% }) %>
             </tbody>

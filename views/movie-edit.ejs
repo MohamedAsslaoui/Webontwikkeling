@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit movie</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <%- include("partials/navbar") %>
+
+  <main>
+    <h1>Edit movie</h1>
+
+    <form method="POST" action="/movies/<%= movie.id %>/edit">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" value="<%= movie.title %>" required>
+        </div>
+
+        <div>
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" name="genre" value="<%= movie.genre %>" required>
+        </div>
+
+        <div>
+            <label for="duration">Duration</label>
+            <input type="number" id="duration" name="duration" value="<%= movie.duration %>" min="1" required>
+        </div>
+
+        <div>
+            <label for="isAvailable">Available</label>
+            <select id="isAvailable" name="isAvailable">
+                <option value="true" <%= movie.isAvailable ? "selected" : "" %>>Yes</option>
+                <option value="false" <%= !movie.isAvailable ? "selected" : "" %>>No</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="studioId">Studio</label>
+            <select id="studioId" name="studioId">
+                <% studios.forEach((studio) => { %>
+                    <option value="<%= studio.id %>" <%= studio.id === movie.studio.id ? "selected" : "" %>>
+                        <%= studio.name %>
+                    </option>
+                <% }) %>
+            </select>
+        </div>
+
+        <button type="submit">Save changes</button>
+    </form>
+  </main>
+</body>
+</html>

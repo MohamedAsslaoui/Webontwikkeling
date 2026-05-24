@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include("partials/navbar") %>
+
+    <main class="login-container">
+        <h1>Register</h1>
+
+        <form action="/register" method="POST" class="login-form">
+            <% if (error) { %>
+                <p class="error"><%= error %></p>
+            <% } %>
+
+            <div>
+                <label for="username">Gebruikersnaam</label>
+                <input type="text" name="username" id="username" value="<%= username %>" required>
+            </div>
+
+            <div>
+                <label for="password">Wachtwoord</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+</body>
+</html>

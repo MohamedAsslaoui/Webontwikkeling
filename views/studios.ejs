@@ -27,7 +27,7 @@
                     <tr>
                         <td><%= studio.name %></td>
                         <td><%= studio.foundedYear %></td>
-                        <td><%= studio.isActive %></td>
+                        <td><%= studio.isActive ? "Yes" : "No" %></td>
                         <td><%= studio.headquarters %></td>
                         <td><a href="/studios/<%= studio.id %>">View</a></td>
                     </tr>

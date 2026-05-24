@@ -15,8 +15,9 @@
 
         <p><strong>ID:</strong> <%= movie.id %></p>
         <p><strong>Description:</strong> <%= movie.description %></p>
+        <p><strong>Duration:</strong> <%= movie.duration %> minutes</p>
         <p><strong>Release year:</strong> <%= movie.releaseDate.split("-")[0] %></p>
-        <p><strong>Available:</strong> <%= movie.isAvailable %></p>
+        <p><strong>Available:</strong> <%= movie.isAvailable ? "Yes" : "No" %></p>
         <p><strong>Release date:</strong> <%= movie.releaseDate %></p>
         <p><strong>Genre:</strong> <%= movie.genre %></p>
         <p><strong>Actors:</strong> <%= movie.actors.join(", ") %></p>
@@ -25,6 +26,12 @@
         <p><strong>Name:</strong> <%= movie.studio.name %></p>
         <p><strong>Headquarters:</strong> <%= movie.studio.headquarters %></p>
         <p><a href="/studios/<%= movie.studio.id %>">View studio detail</a></p>
+
+        <% if (role === "ADMIN") { %>
+            <p>
+                <a href="/movies/<%= movie.id %>/edit">Edit movie</a>
+            </p>
+        <% } %>
     </main>
 </body>
 </html>
